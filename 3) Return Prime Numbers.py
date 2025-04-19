@@ -36,6 +36,11 @@ if __name__ == "__main__":
 Explicación del código:
 En la primera función se verifica si un número es primo, y esto se hace 
 verificando solo numeros impares de dos en dos para optimizar el proceso. 
+Se revisa hasta la raíz cuadrada del número porque los divisores se presentan en pares. 
+Si un número n tiene un divisor a, entonces también tiene un divisor b tal que a×b=n.
+En cada pareja de divisores, al menos uno de ellos debe ser menor o igual que la raíz cuadrada 
+de n, de lo contrario, el producto a×b sería mayor que n, lo cual es un absurdo. Por eso, 
+basta con verificar los posibles divisores hasta n para determinar si un número es primo.
 En la segunda función se pasa cada elemento de la lista en la primera función y 
 se retorna una lista con todos los números que verifique ser primos.
 """
