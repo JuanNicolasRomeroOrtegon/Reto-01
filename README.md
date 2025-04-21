@@ -10,14 +10,14 @@ resultados que brinda el programa.
 
 #### Ejercicio 1  
 Objetivo: realizar operaciones matemáticas básicas (suma, resta, multiplicación, 
-división).
+división).\
 Se efectúan las *operaciones básicas* con un **`match case`** y si hay una  
 *división por 0*, salta un **error**.
 
 ---
 
 #### Ejercicio 2  
-Objetivo: determinar si una palabra es palíndromo.
+Objetivo: determinar si una palabra es palíndromo.\
 Se convierte la palabra en *minúsculas* para evitar problemas (Ej: **`M != m`**).  
 Se verifica hasta la *mitad de la longitud* de la palabra, pues estamos  
 revisando las letras de *dos en dos*.  
@@ -26,7 +26,7 @@ Verifica si las letras son *iguales* para determinar si es un **palíndromo**.
 ---
 
 #### Ejercicio 3  
-Objetivo: obtener los números primos de una lista de enteros.
+Objetivo: obtener los números primos de una lista de enteros.\
 En la *primera función* se verifica si un número es **primo**, y esto se hace  
 verificando solo *números impares* de dos en dos para *optimizar* el proceso.  
 En la *segunda función* se pasa cada *elemento de la lista* en la primera  
@@ -36,7 +36,7 @@ función y se retorna una lista con todos los números que verifiquen ser *primo
 
 #### Ejercicio 4  
 Objetivo: encontrar si la suma de dos números consecutivos en una lista es mayor 
-a la anterior.
+a la anterior.\
 Se comparan las *sumas consecutivas* con el **`>`**. Si es mayor, entonces se  
 vuelve a asignar la variable **`greater`** y se hace con **`len(num_list) - 1`**  
 para evitar un *error de índice*.
@@ -44,7 +44,7 @@ para evitar un *error de índice*.
 ---
 
 #### Ejercicio 5 
-Objetivo: agrupar palabras que están formadas por los mismos caracteres
+Objetivo: agrupar palabras que están formadas por los mismos caracteres.\
 La *primera función* (**`sort_characters`**) ordena *alfabéticamente* los  
 caracteres de cada palabra de la *lista original* y retorna una nueva lista  
 con estas palabras ordenadas *carácter por carácter*.
